@@ -20,7 +20,7 @@ export const MainLayout = ({ children, title }: Props ) => {
 
         <meta property="og:title" content={`${title} | Pokémon App`} />
         <meta property="og:description" content={`${title}'s information`} />
-        <meta property="og:image" content={`${origin}/img/banner.png`} />
+        <meta property="og:image" content={`${origin}/images/banner.png`} />
       </Head>
 
       <Navbar />
